@@ -2,6 +2,7 @@
     "version": "3.9.0",
     "license": "Apache-2.0",
     "homepage": "https://arx.deidentifier.org/",
+    "description": "Data Anonymization Tool",
     "url": [
         "https://github.com/arx-deidentifier/arx/releases/download/v3.9.0/arx-3.9.0-win-64.jar",
         "https://raw.githubusercontent.com/arx-deidentifier/arx/master/logo/logo.ico"

@@ -4,12 +4,12 @@ my own personal [scoop bucket](https://scoop.sh/) of applications.
 
 Install scoop like this:
 ```powershell
-iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+iwr -useb get.scoop.sh | iex
 ```
 
 Then install this software bucket like this:
 ```powershell
-scoop bucket add scoop-nicerloop https://github.com/nicerloop/scoop-nicerloop
+scoop bucket add nicerloop https://github.com/nicerloop/scoop-nicerloop
 ```
 
 Now you can quickly and automatically install the software registered here.

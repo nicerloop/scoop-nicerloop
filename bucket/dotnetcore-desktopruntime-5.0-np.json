@@ -1,0 +1,26 @@
+{
+    "version": "5.0.13",
+    "homepage": "https://dotnet.microsoft.com/en-us/download/dotnet/5.0",
+    "##": "https://silentinstallhq.com/asp-net-core-runtime-5-0-silent-install-how-to-guide/",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.visualstudio.microsoft.com/download/pr/2bfb80f2-b8f2-44b0-90c1-d3c8c1c8eac8/409dd3d3367feeeda048f4ff34b32e82/windowsdesktop-runtime-5.0.13-win-x64.exe",
+            "hash": "394caa0713498972ddd98bde1c3a1b9dc63d5b7d9bd3c781d245c98fd12d818a"
+        }
+    },
+    "pre_download": "Assert-Administrator",
+    "installer": {
+        "script": [
+            "Start-Process \"$dir\\$fname\" -ArgumentList \"/install\",\"/quiet\",\"/norestart\" -Wait"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "$_pwd_ = $pwd",
+            "Set-Location $dir",
+            "$_exe_ = Get-ChildItem windowsdesktop-runtime-*.exe",
+            "Start-Process \"$_exe_\" -ArgumentList \"/uninstall\" , \"/quiet\" , \"/norestart\" -Wait",
+            "Set-Location $_pwd_"
+        ]
+    }
+}

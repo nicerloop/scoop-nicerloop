@@ -1,0 +1,22 @@
+{
+    "version": "4.0.1",
+    "description": "Authenticating HTTP(s) proxy server facade",
+    "homepage": "https://github.com/ecovaci/winfoom",
+    "license": "Apache-2.0",
+    "url": "https://github.com/ecovaci/winfoom/releases/download/v4.0.1/winfoom-windows.zip",
+    "hash": "a03e7739e9c6e7e235362102ee838b01a24c3cad710453fdc39c2664681b8181",
+    "pre_install": "Set-Content \"$dir\\winfoom.ps1\" (@('find-java -version 11 -setsession','$CWD = [Environment]::CurrentDirectory','Push-Location $PSScriptRoot','[Environment]::CurrentDirectory = $PWD','.\\launchGui.bat','Pop-Location','[Environment]::CurrentDirectory = $CWD') -join \"`r`n\") -Encoding Ascii",
+    "suggest": {
+        "JRE": "java/temurin11-jre"
+    },
+    "bin": [
+        "winfoom.ps1"
+    ],
+    "persist": ["config","out" ],
+    "checkver": {
+        "github": "https://github.com/ecovaci/winfoom"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Wisser/Jailer/releases/download/v$version/Jailer-database-tools-$version.msi"
+    }
+}

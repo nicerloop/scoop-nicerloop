@@ -26,6 +26,6 @@
         "github": "https://github.com/rancher-sandbox/rancher-desktop"
     },
     "autoupdate": {
-        "url": "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v$version/Rancher.Desktop.Setup.$version.exe#/dl.7z",
+        "url": "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v$version/Rancher.Desktop.Setup.$version.exe#/dl.7z"
     }
 }

@@ -1,13 +1,13 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "Apache-2.0",
     "homepage": "https://rancherdesktop.io/",
     "description": "Kubernetes and container management to the desktop",
     "url": [
-        "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.0.0/Rancher.Desktop.Setup.1.0.0.exe#/dl.7z"
+        "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.0.1/Rancher.Desktop.Setup.1.0.1.exe#/dl.7z"
     ],
     "hash": [
-        "sha512:6ed754b43d53564cb347d0227462cc688563c2a8e1930c90590b521d024b5c3c5662126693be8163e84f721a706f505d4ad26a048ae568ac6b9904230dc99629"
+        "sha512:200337bfea3b21b0fb9595cb02c885b5e51d9c75a59b16901c2809dbb746b7e111aa642dd8c45e9c80ed1aefd2b806d709666786d2db4d7e5a5057bd405faa77"
     ],
     "installer": {
         "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
@@ -27,9 +27,5 @@
     },
     "autoupdate": {
         "url": "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v$version/Rancher.Desktop.Setup.$version.exe#/dl.7z",
-        "hash": {
-            "url": "$baseurl/latest.yml",
-            "regex": "sha512:\\s+$base64"
-        }
     }
 }

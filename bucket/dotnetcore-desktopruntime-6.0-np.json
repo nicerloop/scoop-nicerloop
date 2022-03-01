@@ -1,0 +1,26 @@
+{
+    "version": "6.0.2",
+    "homepage": "https://dotnet.microsoft.com/en-us/download/dotnet/6.0",
+    "##": "https://silentinstallhq.com/asp-net-core-runtime-6-0-silent-install-how-to-guide/",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.visualstudio.microsoft.com/download/pr/efa32b7a-6eec-4d97-9cdc-c7336a29a749/3df4296170397cf60884dae1be3d103b/windowsdesktop-runtime-6.0.2-win-x64.exe",
+            "hash": "288bfdcde57a39c569a69498de6d9d3b5188705be026561aea19531a69cc3660"
+        }
+    },
+    "pre_download": "Assert-Administrator",
+    "installer": {
+        "script": [
+            "Start-Process \"$dir\\$fname\" -ArgumentList \"/install\",\"/quiet\",\"/norestart\" -Wait"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "$_pwd_ = $pwd",
+            "Set-Location $dir",
+            "$_exe_ = Get-ChildItem windowsdesktop-runtime-*.exe",
+            "Start-Process \"$_exe_\" -ArgumentList \"/uninstall\" , \"/quiet\" , \"/norestart\" -Wait",
+            "Set-Location $_pwd_"
+        ]
+    }
+}

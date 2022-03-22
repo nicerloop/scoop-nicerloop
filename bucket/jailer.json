@@ -1,10 +1,10 @@
 {
-    "version": "12.2.2",
+    "version": "12.2.3",
     "description": "Database Subsetting and Relational Data Browsing Tool",
     "homepage": "https://wisser.github.io/Jailer",
     "license": "Apache-2.0",
-    "url": "https://github.com/Wisser/Jailer/releases/download/12.2.2/Jailer-database-tools-12.2.2.msi",
-    "hash": "sha512:a5d27415efb6f5952798d32a72c96cd4efa4f83874f32431d1cf2c5d4271b2559a7be547cee043e9c5527e1e3d41e4b84f766607b7fb701dce891a8bb9fe5b58",
+    "url": "https://github.com/Wisser/Jailer/releases/download/v12.2.3/Jailer-database-tools-12.2.3.msi",
+    "hash": "sha512:62a98e772c1c325871fb6eb743aa0b64704f2d8bcb5dfba34706bb7133d6319209b416670f180d3a471fe1c2c94de00b47c3ecd81beec8bff8768e572d2d83fb",
     "extract_dir": "Jailer",
     "bin": [
         "app/Jailer.exe",

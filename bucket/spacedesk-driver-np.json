@@ -1,15 +1,15 @@
 {
     "homepage": "https://spacedesk.net/",
     "description": "Network display multi monitor software",
-    "version": "1.0.35",
+    "version": "1.0.39",
     "architecture": {
         "64bit": {
-            "url": "https://spacedesk.net/downloads/spacedesk_driver_Win_10_64_v1035_BETA.msi#/setup.msi_",
-            "hash": "30ab9826376be268cb7fa0b071b081ec12d013d5f53e91e98f133708771ef1e8"
+            "url": "https://spacedesk.net/downloads/spacedesk_driver_Win_10_64_v1039_BETA.msi#/setup.msi_",
+            "hash": "69d170855ec01943e78713684e2edae4c876a9b8f88e61a7b95fbbfe176b2d7b"
         },
         "32bit": {
-            "url": "https://spacedesk.net/downloads/spacedesk_driver_Win_10_32_v1035_BETA.msi#/setup.msi_",
-            "hash": "4a81e94bd9ac190bcfc05ecc52d051a55f85f4bf07a727232e7782dae32d3f81"
+            "url": "https://spacedesk.net/downloads/spacedesk_driver_Win_10_32_v1039_BETA.msi#/setup.msi_",
+            "hash": "8d73ffcd8cd37491ce3c4c4f6c8aab21ef36f768189628fd736440da775eeb90"
         }
     },
     "installer": {

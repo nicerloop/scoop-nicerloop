@@ -1,23 +1,23 @@
 {
-    "version": "12.3.1",
+    "version": "12.4",
     "description": "Database Subsetting and Relational Data Browsing Tool",
     "homepage": "https://wisser.github.io/Jailer",
     "license": "Apache-2.0",
-    "url": "https://github.com/Wisser/Jailer/releases/download/v12.3.1/Jailer-database-tools-12.3.1.msi",
-    "hash": "ec921a6be524d0a3a432ceef3117fa4c8aac002bd28b3ade4b7552127b41943d",
-    "extract_dir": "Jailer",
+    "url": "https://github.com/Wisser/Jailer/releases/download/v12.4/Jailer-database-tools-12.4.msi",
+    "hash": "7d859c0ccf9bf06dc6a596933d4ce99b5574808862a751b3a9eacf57f3e03e3c",
+    "extract_dir": "Jailer Database Tools/app",
+    "post_install": [
+        "(Get-Content \"$dir\\jailer.bat\").replace('=lib','=%~dp0\\lib').replace(';config',';%~dp0\\config').replace('jailer.jar','%~dp0\\jailer.jar') | Set-Content \"$dir\\jailer.bat\"",
+        "(Get-Content \"$dir\\jailerGUI.bat\").replace('=lib','=%~dp0\\lib').replace(';config',';%~dp0\\config').replace('jailer.jar','%~dp0\\jailer.jar') | Set-Content \"$dir\\jailerGUI.bat\""
+    ],
     "bin": [
-        "app/Jailer.exe",
-        "app/JailerDataBrowser.exe"
+        "jailer.bat",
+        "jailerGUI.bat"
     ],
     "shortcuts": [
         [
             "Jailer.exe",
             "Jailer"
-        ],
-        [
-            "Jailer Data Browser.exe",
-            "Jailer Data Browser"
         ]
     ],
     "checkver": {

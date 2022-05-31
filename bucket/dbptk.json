@@ -4,7 +4,7 @@
     "homepage": "https://database-preservation.com/",
     "license": "GPL-3.0-only",
     "url": "https://github.com/keeps/dbptk-desktop/releases/download/v2.6.0/dbptk-desktop-2.6.0.exe#/dl.7z",
-    "hash": "3d3f2832da92d110098758dd2c88d111789e8e03c2b3a9abe7fd5975de18daad",
+    "hash": "2612f745abcb4c0d58db761f66431878ffda47e757c5c64bb18c5fea0436dc98",
     "architecture": {
         "64bit": {
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""

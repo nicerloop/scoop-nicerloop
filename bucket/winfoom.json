@@ -15,7 +15,7 @@
         "Set-Content \"$dir\\winfoom.ps1\" (@('find-java -version 11 -setsession','$CWD = [Environment]::CurrentDirectory','Push-Location $PSScriptRoot','[Environment]::CurrentDirectory = $PWD','.\\launchGui.bat','Pop-Location','[Environment]::CurrentDirectory = $CWD') -join \"`r`n\") -Encoding Ascii",
         "Set-Content \"$dir\\winfoom.cmd\" (@('@echo off','start /b powershell -executionpolicy bypass -file \"./winfoom.ps1\"') -join \"`r`n\") -Encoding Ascii"
     ],
-    "depends" : [
+    "depends": [
         "extras/find-java"
     ],
     "suggest": {
@@ -32,7 +32,10 @@
             "winfoom.ico"
         ]
     ],
-    "persist": ["config","out" ],
+    "persist": [
+        "config",
+        "out"
+    ],
     "checkver": {
         "github": "https://github.com/ecovaci/winfoom"
     },

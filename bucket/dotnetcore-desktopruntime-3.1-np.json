@@ -5,7 +5,7 @@
     "architecture": {
         "64bit": {
             "url": "https://download.visualstudio.microsoft.com/download/pr/a40ed796-b721-455e-bf17-574d905fd8d7/b5ce5020abaf4317855697cb5d085695/windowsdesktop-runtime-3.1.26-win-x64.exe",
-            "hash": "1f22fb7316b5db72151f688323782427e8eb706f4899a4489014e34f9f6433043f407987942dd33d2a894bbcc3edeed55866b65d3dcb60d2951c6031d7dc15c5"
+            "hash": "sha512:1f22fb7316b5db72151f688323782427e8eb706f4899a4489014e34f9f6433043f407987942dd33d2a894bbcc3edeed55866b65d3dcb60d2951c6031d7dc15c5"
         },
         "32bit": {
             "url": "https://download.visualstudio.microsoft.com/download/pr/a4ddd21c-0c40-49a2-bea4-a9209e214953/6381be0ed116cf2ee2cc72c9b4ad35ce/windowsdesktop-runtime-3.1.26-win-x86.exe",

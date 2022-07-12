@@ -1,15 +1,18 @@
 {
-    "version": "12.4.4",
+    "version": "12.5.1",
     "description": "Database Subsetting and Relational Data Browsing Tool",
     "homepage": "https://wisser.github.io/Jailer",
     "license": "Apache-2.0",
-    "url": "https://github.com/Wisser/Jailer/releases/download/v12.4.4/Jailer-database-tools-12.4.4.msi",
-    "hash": "f4f36d978663a0c27168b9478dfd6aab0d04570a2ab8d093faaad1ddfbe586f3",
+    "url": "https://github.com/Wisser/Jailer/releases/download/v12.5.1/Jailer-database-tools-12.5.1.msi",
+    "hash": "60ebf786c1ef741f946dcbaa0a91c5c8916b36a0c1db0f84fed8c250d85adbed",
     "extract_dir": "Jailer Database Tools/app",
     "post_install": [
         "(Get-Content \"$dir\\jailer.bat\").replace('=lib','=%~dp0\\lib').replace(';config',';%~dp0\\config').replace('jailer.jar','%~dp0\\jailer.jar') | Set-Content \"$dir\\jailer.bat\"",
         "(Get-Content \"$dir\\jailerGUI.bat\").replace('=lib','=%~dp0\\lib').replace(';config',';%~dp0\\config').replace('jailer.jar','%~dp0\\jailer.jar') | Set-Content \"$dir\\jailerGUI.bat\""
     ],
+    "suggest": {
+        "JRE": "java/temurin11-jre"
+    },
     "bin": [
         "jailer.bat",
         "jailerGUI.bat"

@@ -1,0 +1,1 @@
+powershell.exe -file "test.ps1"

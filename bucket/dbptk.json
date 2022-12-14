@@ -1,10 +1,10 @@
 {
-    "version": "2.6.0",
+    "version": "2.7.0",
     "description": "Set of tools to store relational databases in a standard archival format",
     "homepage": "https://database-preservation.com/",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/keeps/dbptk-desktop/releases/download/v2.6.0/dbptk-desktop-2.6.0.exe#/dl.7z",
-    "hash": "2612f745abcb4c0d58db761f66431878ffda47e757c5c64bb18c5fea0436dc98",
+    "url": "https://github.com/keeps/dbptk-desktop/releases/download/v2.7.0/dbptk-desktop-2.7.0.exe#/dl.7z",
+    "hash": "42fdd7655dfccef126cec7da0c4fa7301dca9647787a337c4ac1e3483f43155f",
     "architecture": {
         "64bit": {
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""

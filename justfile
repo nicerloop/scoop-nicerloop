@@ -1,5 +1,8 @@
-build:
-    -vagrant destroy -f
+build: up test down
+up:
     vagrant up
-    vagrant ssh -- C:\\vagrant\\test.cmd
+test:
+    vagrant snapshot restore clean || vagrant snapshot save clean
+    vagrant ssh -- powershell C:/vagrant/test.ps1
+down:
     vagrant destroy -f

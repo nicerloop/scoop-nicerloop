@@ -1,5 +1,5 @@
 {
-    "version": "7.4.1-noexecpolicy",
+    "version": "7.4.1",
     "description": "PowerShell Core custom build for Windows with Unix Unrestricted ExecutionPolicy.",
     "homepage": "https://github.com/nicerloop/pwsh-noexecpolicy",
     "license": "MIT",

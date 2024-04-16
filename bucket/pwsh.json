@@ -13,7 +13,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/nicerloop/pwsh-noexecpolicy/releases/download/v7.4.2/PowerShell-NoExecPolicy-7.4.2-win-x64.zip",
-            "hash": "fdb6596a9c3dad2b953cd21e5b00f9e5f973840a24d7359064c9531abb636c94"
+            "hash": "ed56dcedfa14e1d134677b81639406541515626f90d69b55d7131b808b76430f"
         }
     },
     "pre_install": [

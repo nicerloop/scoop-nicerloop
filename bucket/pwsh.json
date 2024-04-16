@@ -1,5 +1,5 @@
 {
-    "version": "7.4.1",
+    "version": "7.4.2",
     "description": "PowerShell Core custom build for Windows with Unix Unrestricted ExecutionPolicy.",
     "homepage": "https://github.com/nicerloop/pwsh-noexecpolicy",
     "license": "MIT",
@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nicerloop/pwsh-noexecpolicy/releases/download/v7.4.1/PowerShell-NoExecPolicy-7.4.1-win-x64.zip",
-            "hash": "aa2ecb3da44c61d4c5216b54b6231b11825e888f25ed237ed92f7ab6c4b24112"
+            "url": "https://github.com/nicerloop/pwsh-noexecpolicy/releases/download/v7.4.2/PowerShell-NoExecPolicy-7.4.2-win-x64.zip",
+            "hash": "fdb6596a9c3dad2b953cd21e5b00f9e5f973840a24d7359064c9531abb636c94"
         }
     },
     "pre_install": [

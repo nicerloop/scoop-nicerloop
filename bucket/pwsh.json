@@ -31,7 +31,8 @@
         "        if ($global) { $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE') }",
         "        Set-Content \"$dir\\$_.reg\" $content -Encoding Ascii -Force",
         "    }",
-        "}"
+        "}",
+        "New-Item -Path \"$dir\\powershell.exe\" -ItemType SymbolicLink -Target \"$dir\\pwsh.exe\""
     ],
     "bin": "pwsh.exe",
     "shortcuts": [

@@ -4,6 +4,5 @@
     "homepage": "https://commondatastorage.googleapis.com/chrome-infra-docs/flat/depot_tools/docs/html/depot_tools.html",
     "license": "MIT",
     "url": "https://storage.googleapis.com/chrome-infra/depot_tools.zip",
-    "hash": "a5ad8c741868c3c160ed5906752791f6ea50cae5db33edd1acf9f89ed87475d2",
     "env_add_path": "."
 }

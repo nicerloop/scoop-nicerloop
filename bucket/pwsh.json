@@ -1,5 +1,5 @@
 {
-    "version": "7.4.6.2",
+    "version": "7.4.7",
     "description": "PowerShell Core custom build for Windows without GPO ExecutionPolicy scopes.",
     "homepage": "https://github.com/nicerloop/pwsh-noexecpolicy",
     "license": "MIT",
@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nicerloop/pwsh-noexecpolicy/releases/download/v7.4.6.2/PowerShell-NoGpoExecPolicy-7.4.6.2-win-x64.zip",
-            "hash": "5cfa4523214bfa554823dc8afc81b0a9fe2bd6034444e8ab51143752c9f0c5e6"
+            "url": "https://github.com/nicerloop/pwsh-noexecpolicy/releases/download/v7.4.7/PowerShell-NoGpoExecPolicy-7.4.7-win-x64.zip",
+            "hash": "40315fd45531c1755851cd9dc0ecdd2e8fa1c2db20a17e7edd18e19c6537322f"
         }
     },
     "pre_install": [

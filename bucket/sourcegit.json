@@ -1,12 +1,12 @@
 {
-    "version": "2026.20",
+    "version": "2026.21",
     "description": "Cross-platform GUI client for GIT users",
     "homepage": "https://github.com/sourcegit-scm/sourcegit",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sourcegit-scm/sourcegit/releases/download/v2026.20/sourcegit_2026.20.win-x64.zip",
-            "hash": "64c783c9bfdb66dffdca6c2623427a900844a4ba8d7dacf6762b3e77e1ef6cae"
+            "url": "https://github.com/sourcegit-scm/sourcegit/releases/download/v2026.21/sourcegit_2026.21.win-x64.zip",
+            "hash": "954a458ad3d8c1b537046e051f8427cfebacdf06977510b4b0185b44eb1133eb"
         }
     },
     "extract_dir": "SourceGit",
